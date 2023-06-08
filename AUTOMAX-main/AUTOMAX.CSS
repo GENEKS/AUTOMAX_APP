@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background-color: #222222;
+  }
+  
+  .container2 {
+    position: fixed;
+    bottom: 40px;
+    left: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: white;
+  }
+  
+  .welcome {
+    font-size: 2rem;
+    margin: 0;
+  }
+  
+  .subheading {
+    font-size: 4rem;
+    margin: 0;
+  }
+
+  .logo {
+    transform: translateY(100px);
+    width: 400px;
+  }
+
+  .padrao {
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .butpadrao {
+    border-radius: 50px;
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    width: 300px;
+    height: 50px;
+    transform: translatex(40px);
+  }
+
+  .foto01 {
+    width: 280px;
+    transform: translateX(50px);
+  }
+
+  #centralizar {
+    transform: translateY(10%);
+  }
+
+  .image-container {
+    margin-top: 30px;
+    transform: translateX(30px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
+
+  .image-container2 {
+    margin-top: 10px;
+    transform: translateX(135px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
+
+  .rounded-image2 {
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+  }
+
+  #pfv {
+    width: 450px;
+  }
+
+  #username {
+    position: absolute;
+    transform: translateY(-65px);
+    font-size: 20px;
+    margin-left: 100px;
+    font-size: 1em;
+  }
+  
+  #promo {
+    background-color: #3333;
+    border-radius: 20px;
+    width: 340px;
+    transform: translateX(19px);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+  }
+
+
+  #promo1 {
+    border: 2px, white, solid;
+    background-color: #3333;
+    border-radius: 20px;
+    width: 340px;
+    height: 160px;
+    transform: translateX(19px);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+  }
+
+  .circlepromo {
+    width: 100px;
+    height: 100px;
+    background-color: #3333;
+    border-radius: 100%;
+    position: absolute;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  #circlepromo1 {
+    transform: translateX(19px);
+    background-image: url(log01.png);
+    background-color: #3333;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+
+  }
+
+  #circlepromo2 {
+    transform: translateX(140PX);
+    background-image: url(log02.png);
+    background-color: #3333;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  #circlepromo3 {
+    transform: translateX(260px);
+    background-image: url(log03.png);
+    background-color: #3333;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  #circlepromo4 {
+    transform: translateX(360px);
+    background-color: rgba(255, 0, 0, 0);
+  }
+
+  #onix {
+    width: 180px;
+    position: absolute;
+    transform: translateY(-140px);
+    margin-left: 140px;
+  }
+
+  #AUDI {
+    width: 130px;
+    position: absolute;
+    transform: translateY(-195px);
+    margin-left: 209px;
+  }
+
+  .marca {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    border: none;
+    background: #3333;
+  }
+
+  .voltar {
+    background-image: url(iconvolt.png);
+    background-color: #3333;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 20px;
+  }
+
+  .rounded-image {
+    width: 100%;
+    height: 60px;
+    border-radius: 100%;
+  }
+
+  #centralizar2 {
+    transform: translateY(20px);
+    transform: translateX(40px);
+    position: absolute;
+  }
+
+  #comprar {
+    border-radius: 50px;
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    width: 140px;
+    height: 50px;
+    position: absolute;
+    margin-left: 170px;
+    height: 40px;
+    border: none;
+  }
+
+  #resumo {
+    background-color: #3333;
+    width: 350PX;
+    border-radius: 20px;
+    transform: translateX(15px);
+  }
+
+  #txtresumo {
+    margin: 5px;
+    padding: 10px;
+  }
+
+#txtresumo1 {
+  margin: 5px;
+  margin-bottom: 0px;
+  padding: 10px;
+  padding-bottom: 0px;
+}
+
+  .txtresumo {
+    margin: 10px;
+    padding: 10px;
+  }
+
+  #car01 {
+    width: 100px;
+    margin-left: 20px;
+  }
+
+  #entrega {
+    background-color: #3333;
+    width: 350PX;
+    border-radius: 20px;
+    transform: translateX(15px);
+  }
+
+  #pedido {
+    background-color: #3333;
+    width: 350PX;
+    border-radius: 20px;
+    transform: translateX(15px);
+  }
+
+  #compra11 {
+    background-color: white;
+    color: #222222;
+  }
+
+  #detail {
+    position: absolute;
+    transform: translateY(-100px);
+    margin-left: 170px;
+  }
+
+  .centralizer01 {
+    text-align: center;
+    transform: translateY(250px);
+  }
+
+  .centralizer02 {
+    text-align: center;
+    transform: translateY(50px);
+  }
+
+  .formpag {
+    width: 320px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #3333;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    border: none;
+  }
+
+  #senha {
+    background-color: #3333;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2em;
+    text-align: center;
+    border-radius: 15px;
+    border: 2px solid white;
+  }
+
+  #rec {
+    background-color: #ffffff;
+    text-align: center;
+    margin-left: 25px;
+    transform: translateY(140px);
+    width: 330px;
+    border-radius: 40px;
+  }
+
+  #inputcdn {
+    background-color: #3333;
+    width: 250px;
+    border: 2px solid white;
+    border-radius: 10px;
+    height: 30px;
+    transform: translateX(50px);
+  }
+
+  .iconcar {
+    width: 200px;
+    filter: invert(100%);
+  }
+
+  #fim {
+    filter: invert(100%);
+    margin: 10px;
+    width: 130px;
+  }
+
+  #info {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    }
+
+  .info1 {
+    display: block;
+    margin-bottom: 10px;
+    background-color: #3333;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    height: 40px;
+    border-radius: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+  }
+
+  .info1::placeholder {
+    text-indent: 10px;
+  }
+
+
+  .container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+  }
+  
+  @media (max-width: 667px) {
+    /* Estilos específicos para telas menores que 414 pixels */
+    .container {
+      font-size: 1.5rem;
+    }
+  }
+  

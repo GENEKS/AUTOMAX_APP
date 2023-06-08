@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="PT_br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conta 01</title>
+    <link rel="stylesheet" href="AUTOMAX.css">
+</head>
+<body>
+
+<form method="POST" action="login.php">
+
+    <label for="nome"></label>
+    <input type="nome" name="nome" id="nome"  placeholder="NOME COMPLETO" required>
+
+    <br>
+    <br>
+
+    <label for="email"></label>
+    <input type="email" name="email" id="email"  placeholder="E-MAIL" required>
+
+    <br>
+    <br>
+
+    <Label for="senha"></label>
+    <input type="password" name="senha" id="senha" placeholder= "SENHA" required>
+    
+    <br>
+    <br>
+    
+   <input type="submit" value="CONCLUIR">
+
+</html>
+
+    <?php 
+
+        if ($_SERVER["REQUEST_METHOD"] == "POST") {
+
+            $nome_completo = $_POST["nome completo"];
+            $email = $_POST["email"];
+            $senha = $_POST["senha"];
+
+        }
+
+    ?>
+</body>
