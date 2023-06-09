@@ -29,13 +29,14 @@ body {
   }
 
   .logo {
-    transform: translateY(100px);
-    width: 400px;
+    transform: translateY(90px);
+    width: 320px;
+    margin-left: 30px;
   }
 
   .padrao {
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .butpadrao {
@@ -45,6 +46,7 @@ body {
     width: 300px;
     height: 50px;
     transform: translatex(40px);
+    border: none;
   }
 
   .foto01 {
@@ -53,7 +55,7 @@ body {
   }
 
   #centralizar {
-    transform: translateY(10%);
+    transform: translateY(15%);
   }
 
   .image-container {
@@ -204,6 +206,13 @@ body {
     border-radius: 100%;
   }
 
+  #log {
+    position: absolute;
+    transform: translateY(-50px);
+    margin-left: 315px;
+    filter: invert(50%);
+  }
+
   #centralizar2 {
     transform: translateY(20px);
     transform: translateX(40px);
@@ -288,14 +297,16 @@ body {
 
   .centralizer03 {
     text-align: center;
-    transform: translateY(20px);
   }
 
   .centralizer04 {
     text-align: center;
-    transform: translateY(20px);
   }
 
+  #pixt {
+    margin: 0px;
+  }
+  
   .formpag {
     width: 320px;
     height: 50px;
