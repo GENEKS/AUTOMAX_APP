@@ -286,6 +286,16 @@ body {
     transform: translateY(50px);
   }
 
+  .centralizer03 {
+    text-align: center;
+    transform: translateY(20px);
+  }
+
+  .centralizer04 {
+    text-align: center;
+    transform: translateY(20px);
+  }
+
   .formpag {
     width: 320px;
     height: 50px;
@@ -328,6 +338,33 @@ body {
     transform: translateX(50px);
   }
 
+  
+  #inputcdn01 {
+    background-color: #3333;
+    width: 250px;
+    border: 2px solid white;
+    border-radius: 10px;
+    height: 30px;
+    transform: translateX(10px);
+    margin: 10px;
+  }
+
+  #inputcdn011 {
+    background-color: #3333;
+    width: 110px;
+    border: 2px solid white;
+    border-radius: 10px;
+    height: 30px;
+    transform: translateX(10px);
+    color: white;
+    margin: 10px;
+  }
+
+  #cdn {
+    display: flex;
+    transform: translateX(50px);
+  }
+
   .iconcar {
     width: 200px;
     filter: invert(100%);
@@ -362,6 +399,13 @@ body {
     text-indent: 10px;
   }
 
+  #cod {
+    background-color: #3333;
+    padding: 5px;
+    width: 300px;
+    margin-left: 30px;
+    border-radius: 20px;
+  }
 
   .container {
     width: 100vw;
