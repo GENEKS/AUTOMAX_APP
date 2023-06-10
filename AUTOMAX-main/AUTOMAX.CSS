@@ -418,6 +418,21 @@ body {
     border-radius: 20px;
   }
 
+  #cod1 {
+    background-color: #3333;
+    padding: 5px;
+    width: 300px;
+    margin-left: 30px;
+    border-radius: 20px;
+    transform: translateY(-35px);
+  }
+
+  #end {
+    transform: translateY(-30px);
+
+  }
+
+
   .container {
     width: 100vw;
     height: 100vh;
